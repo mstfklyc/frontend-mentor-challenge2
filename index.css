@@ -5,9 +5,13 @@
 }
 body {
   font-family: "Hanken Grotesk", sans-serif;
-  background-color: hsl(221, 100%, 96%);
+}
+.first-box,
+.second-box {
+  box-shadow: 10px 5px 10px hsl(221, 100%, 96%);
 }
 .main {
+  box-shadow: 5px 10px hsl(221, 100%, 96%);
   display: flex;
   align-items: center;
   justify-content: center;
